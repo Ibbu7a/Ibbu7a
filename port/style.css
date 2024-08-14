@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Patrick+Hand&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(180, 177, 177);
+    font-family: "Roboto Condensed", sans-serif;
+    height: 100vh;
+    transition: transform .3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgb(184, 8, 140); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+}
+
+.about {
+    font-size: 35px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.moreabout {
+    font-size: 32px;
+    margin-top: 23px;
+    font-family: "Caveat", cursive;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.contactform h1 {
+    font-family: "Caveat", cursive;
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 50vh;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: "Caveat", cursive;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    margin: 23px;
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.intro h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: "Caveat", cursive;
+    margin: 12px;
+}
+
+.shikllcontainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.skill {
+    width: 263px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundered {
+    width: 265px;
+    background-color: brown;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5 {
+    width: 75px;
+    background-color: rgb(24, 168, 31);
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;    
+}
+
+.cross{
+    margin-left: 184px;
+}
+
+@media (max-width: 1115px){
+    *{
+        /* background-color: rgb(97, 32, 32); */
+    }
+
+    .sidebar {
+
+        transform: translate(-443px, 0px);
+        position: absolute;
+
+    }
+}
